@@ -1,9 +1,8 @@
 # Statistical-Arbitrage-Research-Paper-Results
 Coded the combined study of 3 research papers on Engle Graner Hypothesis Approach.
 Engle Graner Test on Pair Trading
-Created by 
-Last updated:  by 5 min read3 people viewed
-     Checking stationarity of data by Adfuller Test:
+
+ Checking stationarity of data by Adfuller Test:
 
 Adfuller Test was performed on the price to check stationary,                                                               Result: Price of coins were non-stationary as p-value of all data was <0.05. Hence making it I(1) series. 
 
