@@ -12,7 +12,9 @@ Adfuller Test was than performed on the consecutive difference  of prices of dif
 
 Testing for Cointegration: 
 Linear Regression(Ordinary least square) was performed by selecting all pair combinations of 19 coins  in which residuals of each linear regression equation  was tested by adfuller test and all those pair coins whose residuals passed adfuller test (p_value>0.05) were stored in the dataframe pair[(i,j)] with their names representing  i and j and holding their respective value of residuals.                                                                                                
+
 Error Correction Modelling:
+
 ECM equation is  a*yt= b*xt  +  c*x(t-1) + d*res + e.                                                                                                             where  t → current time, x → difference in consecutive price of coin X, y → difference in consecutive price of coin Y , res → pair([x,y]), t-1 → lag of 1 unit of time, e → constant added for removing sort of overfitting.
 
 Generally value of c is between -1 to 0 which will make coin to revert back to its mean position in short term.                                                     So value of c was stored in dataframe sel_pair1['error_coeff'] and sorted in ascending value the coin with most negative c value is our ideal pair for mean reversion trading.                                                                     
