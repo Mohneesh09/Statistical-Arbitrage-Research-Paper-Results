@@ -23,10 +23,7 @@ Pair Selection Done.
 Spurious Regression issue was checked from R-squared metric comparison with Durbin Watson statistic and t-statisitc.
 
 To Do:
-
 To apply the strategy on rolling basis to check for results on sample of weeks.
-
-To apply PCA for calculating hedge ratio.
 
 Drawback:
 Hedge Ratio was calculated at once, Hedge ratio might dont get estimated significantly.
