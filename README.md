@@ -1,5 +1,5 @@
 # Statistical-Arbitrage-Research-Paper-Results
-Coded the combined study of 3 research papers on Engle Graner Hypothesis Approach.
+Coded the combined study of  research papers on Engle Graner Hypothesis Approach.
 
 Engle Granger Test on Pair Trading
 
